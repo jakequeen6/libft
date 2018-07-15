@@ -83,7 +83,6 @@ void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
 int					ft_wordcnt(const char *t, char c);
-void				ft_swap(int *a, int *b);
 char				*ft_strrev(char *str);
 void				ft_putstrl(char const *s);
 void				ft_putnstr(char *str, size_t n);
