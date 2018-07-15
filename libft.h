@@ -6,7 +6,7 @@
 /*   By: jaqueen <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/15 02:46:38 by jaqueen           #+#    #+#             */
-/*   Updated: 2018/07/15 02:52:47 by jaqueen          ###   ########.fr       */
+/*   Updated: 2018/07/15 03:57:38 by jaqueen          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,7 +85,6 @@ t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 int					ft_wordcnt(const char *t, char c);
 void				ft_swap(int *a, int *b);
 char				*ft_strrev(char *str);
-void				ft_search_and_replace(char *d, char a, char b);
 void				ft_putstrl(char const *s);
 void				ft_putnstr(char *str, size_t n);
 
